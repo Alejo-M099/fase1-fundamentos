@@ -22,3 +22,31 @@ body {
         li {
             margin-bottom: 50px;
         }
+
+
+        /* FLEXBOX */
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1a202c;
+            padding: 16px 24px;
+            margin-bottom: 40px;
+         }
+         nav .logo {
+            color: white;
+            font-weight: 700;
+            font-size: 1.5rem;
+         }
+         nav ul {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+         }
+         nav ul li {
+            color: white;
+            cursor: pointer;
+         }
+    
+        
