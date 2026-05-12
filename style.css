@@ -48,5 +48,25 @@ body {
             color: white;
             cursor: pointer;
          }
-    
+
+         .cards {
+            display: flex;
+            gap: 20px;
+            margin: 40px 0;
+         }
+         .card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 24px;
+            flex: 2;
+            box-shadow: 0 2px 8[x rgba(0, 0, 0, 0.1)];
+         }
+         .card h3 {
+            color: #1a202c;
+            margin-bottom: 8px;
+         }
+         .card p {
+            color: #718096;
+            font-size: 0.9rem;
+         }
         
