@@ -2,13 +2,13 @@ body {
             background-color: rgb(199, 241, 248);
             font-family: 'Poppins';
              max-width: 800px;
-             margin-bottom: 20px;
+             margin: 0 auto;
              padding: 20px;
         }
         h1 {
             color: brown;
             font-size: xx-large;
-            border-bottom: 10%;
+            border-bottom: 2px solid brown;
             padding-bottom: 10%;
             margin-top: 10%;
         }
