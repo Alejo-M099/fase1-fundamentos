@@ -59,7 +59,7 @@ body {
             border-radius: 8px;
             padding: 24px;
             flex: 2;
-            box-shadow: 0 2px 8[x rgba(0, 0, 0, 0.1)];
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
          }
          .card h3 {
             color: #1a202c;
