@@ -69,4 +69,25 @@ body {
             color: #718096;
             font-size: 0.9rem;
          }
-        
+         .habilidades {
+            margin: 40px 0;
+         }
+
+         .habilidades {
+            margin-bottom: 20px;
+            color: #1a202c;
+         }
+         .grid-habilidades {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+         }
+
+         .habilidad {
+            background-color: #1a202c;
+            color: white;
+            padding: 16px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+         }
